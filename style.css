@@ -20,6 +20,7 @@ h1 {
     letter-spacing: 2px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
 }
 h1,
 p {
@@ -49,11 +50,14 @@ p {
     color: #ffffff;
     font-size: 15px
 }
+
 .pravidla,
-.uvodniStranka {
+.uvodniStranka,
+.home {
     background-color: #1fcca4;
 }
-.zacitHrat {
+.zacitHrat,
+.restart {
     background-color: #0197f6;
 }
 .pravidla:hover,
@@ -61,12 +65,18 @@ p {
 .pravidla:active,
 .uvodniStranka:hover,
 .uvodniStranka:focus,
-.uvodniStranka:active {
+.uvodniStranka:active,
+.home:hover,
+.home:focus,
+.home:active {
     background-color: #1cbb96;
 }
 .zacitHrat:hover,
 .zacitHrat:focus,
-.zacitHrat:active {
+.zacitHrat:active,
+.restart:hover,
+.restart:focus,
+.restart:active {
     background-color: #0090e9;
 }
  ol {
@@ -81,7 +91,8 @@ p {
 }
 
 .box,
-.boxRules {
+.boxRules,
+.hra {
     color: #ffffff;
     text-align: center;
     border: 2px;
@@ -113,6 +124,46 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 25px;
+}
+.hra {
+    max-width: 80vmin;
+}
+.array {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.buttons {
+    margin-left: auto;
+    display: flex;
+}
+.home,
+.restart {
+    text-decoration: none;
+    border: 0 0 0;
+    border-radius: 5%;
+    padding: 15%;
+    margin: 10%;
+    height: 25px;
+}
+
+.player {
+    filter: invert(100%);
+    width: 1em;
+    height: 1em;
+    margin-left: 10px;
+}
+.who {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.grid button {
+    display: flex;
+    
+    height: 25px;
 }
 /* 
 @media screen and (min-width: 650px) {

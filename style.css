@@ -195,6 +195,25 @@ h2 {
     opacity: 0.9;
 }
 
+.board__field--circle {
+    background: url(obrazky/circle.svg) no-repeat center center;
+    background-size: 80%;
+  }
+  
+  .board__field--cross {
+    background: url(obrazky/cross.svg) no-repeat center center;
+    background-size: 80%;
+  }
 
 
+/*Zatim negunkcni bonusovy ukol
+/*  @keyframes fadeOut {
+        0% {opacity: 0;}
+        100% {opacity: 1;} 
+     } 
+.src {
+    animation-name: fadeOut;
+    animation-duration: 0.15s;
+    animation-duration: 0.45s;
+} */
 
